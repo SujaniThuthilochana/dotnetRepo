@@ -9,10 +9,8 @@
 <body>
    <form id="form1" runat="server">
         <div>
+             <h1>User Profile</h1>
              <table>  
-
-                 <h1>User Profile</h1>
-
                 <tr>  
                 <td>Full Name :</td>  
                 <td> <asp:TextBox ID="txtFullName" runat="server"></asp:TextBox> </td>  
@@ -38,12 +36,8 @@
                     <asp:Button ID="btnProfileSave" runat="server" Text="Save" OnClick="Save" />
                     <asp:Button ID="Button1" runat="server" Text="Go to Register" /> 
                 </td>
-                </tr> 
-
-
-                
-                
-            </table> 
+                </tr>             
+              </table> 
         </div>
     </form>
 </body>
